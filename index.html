@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Web Design Challenge</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="nav-brand">
+            <img src="./img/logo.png" alt="" class="navbar-image">
+        </div>
+        <div class="nav-content">
+            <ul>
+                <li>Home</li>
+                <li>Why HTML?</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Home Hero -->
+    <div class="home-hero">
+        <div class="home-padding-container"></div>
+        <div class="home-content-container">
+            <h1>Home</h1>
+            <p>
+                HTML markup consists of several key components,
+                including those called tags (and their attributes),
+                character-based data types, character references and
+                entity references. HTML tags most commonly come
+                in pairs like <code>&lt;h1&gt;</code> and </h1>, although some recodesent
+                ty elements and so are unpaired, for example <img>.
+                The first tag in such a pair is the start tag,
+                and the second is the end tag (they are also called
+                opening tags and closing tags).
+            </p>
+            <button class="button orange-button">Why HTML?</button>
+        </div>
+        <div class="home-image-container">
+            <img class="hero-image" src="./img/hero.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div class="home-table-section">
+        <div class="table-padding-left"></div>
+        <div class="table-container">
+            <h2 class="table-text">Sample Table</h2>
+            <p class="table-sub-text ">The following table uses <code>colspan</code> and <code>rowspan</code> attributes
+                inside to merge two or more cells</h6>
+            <table class="home-table">
+                <tr>
+                    <th></th>
+                    <th>First Year</th>
+                    <th>Second Year</th>
+                    <th>Third Year</th>
+                    <th>Fourth Year</th>
+                    </th>
+                <tr>
+                    <td>8.00AM- 10.00AM</td>
+                    <td>Data Structures and Algorithms</td>
+                    <td>Software Engineering</td>
+                    <td>Mobile Application Development</td>
+                    <td>Parallel Computing</td>
+                    </th>
+                <tr>
+                    <td>10.00AM- 12.00AM</td>
+                    <td>Database</td>
+                    <td>Functional Programming</td>
+                    <td>Machiene Learning</td>
+                    <td>Computational Biology</td>
+                    </th>
+                <tr>
+                    <td>12.00AM- 1.00PM</td>
+                    <td colspan="4" class="text-center">Interval</td>
+                    </th>
+                <tr class="highlighted-row">
+                    <td>1.00AM- 3.00PM</td>
+                    <td>Mathematics</td>
+                    <td rowspan="2">
+                        Group Project
+                        <ul class="table-ul">
+                            <li>Previous Progress</li>
+                            <li>Plan for next weeek</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Game Development
+                    </td>
+                    <td>Congnitive Robotics</td>
+                    </th>
+                <tr>
+                    <td>3.00PM- 5.00PM</td>
+                    <td>Programming in C</td>
+                    <td>Management</td>
+                    <td>Philosophy of Science</td>
+                    </th>
+            </table>
+        </div>
+        <div class="table-padding-left"></div>
+    </div>
+
+    <!-- why HTML -->
+    <div class="why-section">
+        <div class="why-left">
+            <img class="why-image" src="./img/app.png" alt="">
+        </div>
+        <div class="why-right">
+            <h1>Why HTML?</h1>
+            <div class="title-section">
+                <p>HTML (Following Paragraph is Left Aligned)</p>
+            </div>
+            <p>HTML is responsible of giving a semantic meaning for your content.
+                For example :
+            <ol>
+                <li>Here is a <code>&lt;h5&gt;</code> title </h5>
+                </li>
+                <li>Followed by a <code>&lt;p&gt;</code>paragraph <code>&lt;/p&gt;</code></li>
+                <li>Then there’s a footer [etc].</li>
+            </ol>
+            Web browsers read it to display your content according to their importance
+            (a title is bigger than a text, a <code>&lt;strong&gt;</code>
+            <strong>"strong"</strong><code>&lt;/strong&gt;</code> text is more important than a single text,
+            etc). <code>&lt;tt&gt;</code>
+            <pre>Crawlers</pre> <code>&lt;/tt&gt;</code> (like robots) use it to identify what content is relevant to
+            their activity
+            (i.e. google needs your page title to show it on his page).
+            </p>
+            <div class="title-section">
+                <p>HTML (Following Paragraph is Justified)</p>
+            </div>
+            <p class="justified-text">CSS gives a style to your application. It’s fundamentally destined to the user.
+                It allows to say <span class="red-text">"this text is red"</span>, <sbox>"this block is 200px wide"
+                </sbox> , etc.
+                It’s "basically" not used by crawlers but it has some importance
+                (some robot avoid to render a text if it’s hidden for example)
+            </p>
+            <div class="title-section">
+                <p>HTML (Following Paragraph is Right Aligned)</p>
+            </div>
+            <p class="right-text">
+                JavaScript, which is the only programming language of these 3, allows you to perform actions in
+                real time (like showing a dialog when the user click a button).
+            </p>
+        </div>
+        <div class="why-spacer"></div>
+    </div>
+
+    <!-- Form section -->
+    <div class="form-section">
+        <h2>Sample Form</h2>
+        <div class="form-container">
+            <div class="form-padding-container"></div>
+            <div class="form">
+                <form>
+                    <div class="form-wrapper">
+                        <div class="form-container-left">
+                            <p>Name</p>
+                        </div>
+                        <div class="form-container-right">
+                            <input class="inputbox" />
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-container-left">
+                            <p>Email</p>
+                        </div>
+                        <div class="form-container-right">
+                            <input class="inputbox" />
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-container-left">
+                            <p>Gender</p>
+                        </div>
+                        <div class="form-container-right is-text-right">
+                            <input type="radio">Male</input>
+                            <input type="radio" name="gender">Female</input>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-container-left">
+                            <p>Academic Year</p>
+                        </div>
+                        <div class="form-container-right">
+                            <select class="inputbox">
+                                <option value="" selected disabled>Select from list</option>
+                                <option value="2016/2017">2016/2017</option>
+                                <option value="2016/2017">2017/2018</option>
+                                <option value="2016/2017">2018/2019</option>
+                                <option value="2016/2017">2019/2020</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-container-left">
+                            <p>Familier in:</p>
+                        </div>
+                        <div class="form-container-right is-text-right">
+                            <input type="checkbox">HTML</input>
+                            <input type="checkbox">CSS</input>
+                            <input type="checkbox">JS</input>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-container-left comment-box">
+                            <p>Comment:</p>
+                        </div>
+                        <div class="form-container-right align-self-top">
+                            <textarea class="inputbox" rows="10" cols="20"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-container-left"></div>
+                        <div class="form-container-right is-text-right">
+                            <button class="button orange-button">Submit</button>
+                            <button class="button">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="form-padding-container"></div>
+    </div>
+
+    <footer>cdfvdf</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+/* Navbar */
+.navbar{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-brand{
+    width: 10%;
+    text-align: center;
+}
+.nav-content{
+    width: 90%;
+    background-color: #4E598C;
+    text-align: right;
+}
+.navbar-image{
+    width: 3rem;
+}
+ul > li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #ffffff;
+}
+/* Home Hero */
+.home-hero{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.home-content-container{
+    width: 45%;   
+}
+.home-image-container{
+    width: 45%;
+    text-align: center;
+    align-self: center;
+}
+.home-padding-container{
+    width: 10%;
+}
+.button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.orange-button{
+    background-color: #FCAF58;
+    color: #000;
+}
+.hero-image{
+    height: 150px;
+}
+/* Table section */
+code {
+    font-family: Consolas,"courier new";
+    color: black;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+th{
+    padding: 10px 10px;
+    background-color: #4E598C;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+}
+td{
+    padding: 10px 10px;
+    text-align: left;
+    font-size: 12px;
+}
+.text-center{
+    text-align: center;
+}
+.table-ul > li{
+    display: list-item;
+    color: #000;
+}
+.highlighted-row > td{
+    background-color: #f1f1f1;
+    border: 1px solid #EEEEEE
+}
+.home-table{
+    border-bottom: 2px solid #4E598C;
+    box-shadow: 7px 7px 17px -9px #EEEEEE;
+}
+.table-text{
+    margin-bottom: 0;
+}
+.table-sub-text{
+    margin-top: 0;
+}
+.table-padding-left{
+    width: 20%;
+}
+.table-container{
+    width: 60%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.home-table-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+/* Why HTML section */
+.why-section{
+    display: flex;
+    flex-direction: row;
+}
+.why-left{
+    width: 45%;
+    text-align: center;
+    align-self: center;
+    padding: 1rem;
+}
+.why-right{
+    width: 45%;
+    text-align: left;
+    padding: 1rem;
+}
+.why-spacer{
+    width: 10%;
+}
+.why-image{
+    width: 300px;
+}
+.title-section{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.title-section > p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+pre{
+    display: inline;
+}
+.justified-text{
+    text-align: justify;
+}
+.red-text{
+    color: red;
+}
+sbox{
+    width: 200px;
+}
+.right-text{
+    text-align: right;
+}
+/* Form section */
+.form-section{
+    text-align: center;
+}
+.form{
+    width: 50%;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+}
+.form-padding-container{
+    width: 25%;
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.form-container-right{
+    padding: 0.5rem 1rem;
+    width:50%;
+    align-self: center;
+    text-align: left;
+}
+.form-container-left{
+    padding: 0.5rem 1rem;
+    width:50%;
+    align-self: center;
+    text-align: right;
+}
+.is-text-right{
+    text-align: right !important;
+}
+.inputbox{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.comment-box{
+    min-height: 190px;
+}
